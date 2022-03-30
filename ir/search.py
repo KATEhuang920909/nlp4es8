@@ -25,7 +25,7 @@ class Search(object):
             "query": {
                 "multi_match": {
                     "query": question,
-                    "fields": ["question"],  # 在question字段中匹配查询
+                    "fields": ["document"],  # 在question字段中匹配查询
                     "type": "most_fields",
                 }
             }
@@ -43,11 +43,11 @@ class Search(object):
 
                 result = []
                 for data in topn:
+
                     result.append(
                         (
-                            data['_source']['sub_question_id'],
-                            data['_source']['primary_question_id'],
-                            data['_source']['question']
+                            data['_source']['document'],
+                            data['_source']['embedding']
                         )
                     )
                 return result
@@ -123,4 +123,4 @@ if __name__ == '__main__':
         query = input()
         result = search.searchAnswer(query, config)
         for data in result:
-            print("sub_question_id:%s  primary_question_id:%s  question:%s" % (data[0], data[1], data[2]))
+            print("sub_question_id:%s  primary_question_id:%s  " % (data[0], data[1]))

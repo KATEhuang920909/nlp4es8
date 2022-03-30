@@ -6,7 +6,7 @@
 update es total sub question
 """
 from ir.search import Search
-from ir.index import Index
+from ir.index_hnsw import Index
 from ir.config import Config
 from utils.args import FLAGS
 

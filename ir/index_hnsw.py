@@ -1,6 +1,25 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+__title__ = ''
+__author__ = 'yangzl31'
+__mtime__ = '2018/12/13'
+# code is far away from bugs with the god animal protecting
+    I love animals. They taste delicious.
+              ┏┓      ┏┓
+            ┏┛┻━━━┛┻┓
+            ┃      ☃      ┃
+            ┃  ┳┛  ┗┳  ┃
+            ┃      ┻      ┃
+            ┗━┓      ┏━┛
+                ┃      ┗━━━┓
+                ┃  神兽保佑    ┣┓
+                ┃　永无BUG！   ┏┛
+                ┗┓┓┏━┳┓┏┛
+                  ┃┫┫  ┃┫┫
+                  ┗┻┛  ┗┻┛
+"""
 
 import sys
 
@@ -13,9 +32,9 @@ warnings.filterwarnings("ignore")
 
 from ir.config import Config
 from elasticsearch import helpers
-import pandas as pd
+#import pandas as pd
 from utils.args import FLAGS
-# from utils.data_helper import Data
+from utils.data_helper import Data
 from utils.logger_config import base_logger
 
 
@@ -30,9 +49,9 @@ class Index(object):
         questions = {}
 
         # 获取数据
-        # dt = Data(FLAGS.env)
-        # df = dt.read_all_Question()
-        df = pd.read_csv('faq_sub_question.csv', sep=',', error_bad_lines=False,encoding='utf-8')
+        dt = Data(FLAGS.env)
+        df = dt.read_all_Question()
+        # df = pd.read_csv('faq_sub_question.csv', sep=',', error_bad_lines=False,encoding='utf-8')
         for key, value in df.iterrows():
             if not (value[0] or value[1] or value[2].strip()):
                 continue
@@ -54,6 +73,10 @@ class Index(object):
 
                 "properties": {
                     "sub_question_id": {
+                        "type": "long",
+                        "index": "false"
+                    },
+                    "primary_question_id": {
                         "type": "long",
                         "index": "false"
                     },
