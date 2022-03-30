@@ -1,0 +1,97 @@
+2022-03-30 14:51:32,773 - [MainThread:23628] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-30 14:52:59,889 - [MainThread:21624] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-30 14:53:00,612 - [MainThread:21624] - index.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-30 14:53:00,612 - [MainThread:21624] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-30 14:53:00,612 - [MainThread:21624] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 14:53:00,614 - [MainThread:21624] - config.py - __init__ [line:27] - INFO: connect es server in: ['10.154.108.45', '10.154.108.46', '10.154.108.47', '10.154.108.48']
+2022-03-30 14:53:00,615 - [MainThread:21624] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 14:53:00,616 - [MainThread:21624] - config.py - __init__ [line:27] - INFO: connect es server in: ['10.154.108.45', '10.154.108.46', '10.154.108.47', '10.154.108.48']
+2022-03-30 14:53:00,616 - [MainThread:21624] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-30 14:56:31,279 - [MainThread:19828] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-30 14:56:31,925 - [MainThread:19828] - index.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-30 14:56:31,925 - [MainThread:19828] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-30 14:56:31,925 - [MainThread:19828] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 14:56:31,925 - [MainThread:19828] - config.py - __init__ [line:28] - INFO: connect es server in: 127.0.0.1
+2022-03-30 14:56:31,926 - [MainThread:19828] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 14:56:31,926 - [MainThread:19828] - config.py - __init__ [line:28] - INFO: connect es server in: 127.0.0.1
+2022-03-30 14:56:31,926 - [MainThread:19828] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-30 14:56:51,446 - [MainThread:19828] - index.py - create_index [line:46] - INFO: creating robotkdb_all index ...
+2022-03-30 14:56:51,592 - [MainThread:19828] - index.py - create_index [line:82] - WARNING: ConnectionError(<urllib3.connection.HTTPConnection object at 0x0000021C690B7D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x0000021C690B7D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed)
+2022-03-30 14:56:51,592 - [MainThread:19828] - index.py - bulk_index [line:86] - INFO: Bulk index for question
+2022-03-30 14:57:52,662 - [MainThread:11088] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-30 14:57:53,323 - [MainThread:11088] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 14:57:53,323 - [MainThread:11088] - config.py - __init__ [line:28] - INFO: connect es server in: 127.0.0.1
+2022-03-30 14:57:53,324 - [MainThread:11088] - index.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-30 14:57:53,324 - [MainThread:11088] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-30 14:58:12,949 - [MainThread:11088] - index.py - create_index [line:46] - INFO: creating robotkdb_all index ...
+2022-03-30 14:58:13,095 - [MainThread:11088] - index.py - create_index [line:82] - WARNING: ConnectionError(<urllib3.connection.HTTPConnection object at 0x00000204EF4EB1D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x00000204EF4EB1D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed)
+2022-03-30 14:58:13,096 - [MainThread:11088] - index.py - bulk_index [line:86] - INFO: Bulk index for question
+2022-03-30 14:59:39,186 - [MainThread:23820] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-30 14:59:58,868 - [MainThread:12380] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-30 15:00:23,604 - [MainThread:18648] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-30 15:01:06,886 - [MainThread:23876] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-30 15:01:07,557 - [MainThread:23876] - index.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-30 15:01:07,557 - [MainThread:23876] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-30 15:01:07,557 - [MainThread:23876] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 15:01:07,557 - [MainThread:23876] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-30 15:01:07,557 - [MainThread:23876] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 15:01:07,557 - [MainThread:23876] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-30 15:01:07,558 - [MainThread:23876] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-30 15:01:27,300 - [MainThread:23876] - index.py - create_index [line:46] - INFO: creating robotkdb_all index ...
+2022-03-30 15:01:27,304 - [MainThread:23876] - index.py - create_index [line:82] - WARNING: ConnectionError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))) caused by: ProtocolError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',)))
+2022-03-30 15:01:27,304 - [MainThread:23876] - index.py - bulk_index [line:86] - INFO: Bulk index for question
+2022-03-30 15:03:21,534 - [MainThread:3116] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-30 15:03:22,165 - [MainThread:3116] - index.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-30 15:03:22,165 - [MainThread:3116] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-30 15:03:22,165 - [MainThread:3116] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 15:03:22,165 - [MainThread:3116] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-30 15:03:22,165 - [MainThread:3116] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 15:03:22,165 - [MainThread:3116] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-30 15:03:22,166 - [MainThread:3116] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-30 15:03:41,644 - [MainThread:3116] - index.py - create_index [line:46] - INFO: creating robotkdb_all index ...
+2022-03-30 15:03:43,648 - [MainThread:3116] - index.py - create_index [line:82] - WARNING: ConnectionError(<urllib3.connection.HTTPConnection object at 0x0000024A46493DD8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x0000024A46493DD8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。)
+2022-03-30 15:03:43,648 - [MainThread:3116] - index.py - bulk_index [line:86] - INFO: Bulk index for question
+2022-03-30 15:05:42,575 - [MainThread:15184] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-30 15:05:43,248 - [MainThread:15184] - index.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-30 15:05:43,248 - [MainThread:15184] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-30 15:05:43,248 - [MainThread:15184] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 15:05:43,249 - [MainThread:15184] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-30 15:05:43,249 - [MainThread:15184] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 15:05:43,249 - [MainThread:15184] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-30 15:05:43,249 - [MainThread:15184] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-30 15:06:03,072 - [MainThread:15184] - index.py - create_index [line:46] - INFO: creating robotkdb_all index ...
+2022-03-30 15:06:03,128 - [MainThread:15184] - index.py - create_index [line:82] - WARNING: ConnectionError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))) caused by: ProtocolError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',)))
+2022-03-30 15:06:03,129 - [MainThread:15184] - index.py - bulk_index [line:86] - INFO: Bulk index for question
+2022-03-30 16:44:29,396 - [MainThread:8580] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-30 16:44:30,028 - [MainThread:8580] - index.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-30 16:44:30,028 - [MainThread:8580] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-30 16:44:30,028 - [MainThread:8580] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 16:44:30,028 - [MainThread:8580] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-30 16:44:30,029 - [MainThread:8580] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 16:44:30,029 - [MainThread:8580] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-30 16:44:30,029 - [MainThread:8580] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-30 16:44:48,724 - [MainThread:8580] - index.py - create_index [line:46] - INFO: creating robotkdb_all index ...
+2022-03-30 16:44:48,727 - [MainThread:8580] - index.py - create_index [line:82] - WARNING: ConnectionError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))) caused by: ProtocolError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',)))
+2022-03-30 16:44:48,727 - [MainThread:8580] - index.py - bulk_index [line:86] - INFO: Bulk index for question
+2022-03-30 16:59:57,233 - [MainThread:22832] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-30 16:59:57,933 - [MainThread:22832] - index.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-30 16:59:57,933 - [MainThread:22832] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-30 16:59:57,933 - [MainThread:22832] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 16:59:57,933 - [MainThread:22832] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-30 16:59:57,933 - [MainThread:22832] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 16:59:57,933 - [MainThread:22832] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-30 16:59:57,934 - [MainThread:22832] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-30 17:00:17,729 - [MainThread:22832] - index.py - create_index [line:46] - INFO: creating robotkdb_all index ...
+2022-03-30 17:00:17,759 - [MainThread:22832] - index.py - create_index [line:82] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [query_ansj] has not been configured in mappings')
+2022-03-30 17:00:17,759 - [MainThread:22832] - index.py - bulk_index [line:86] - INFO: Bulk index for question
+2022-03-30 17:00:31,654 - [MainThread:22832] - index.py - bulk_index [line:104] - INFO: Bulk index: 268665
+2022-03-30 17:04:56,606 - [MainThread:22192] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-30 17:04:57,252 - [MainThread:22192] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-30 17:04:57,252 - [MainThread:22192] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 17:04:57,252 - [MainThread:22192] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-30 17:04:57,254 - [MainThread:22192] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
+2022-03-30 17:04:57,275 - [MainThread:22192] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 17:04:57,275 - [MainThread:22192] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-30 17:04:57,275 - [MainThread:22192] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-30 17:04:57,275 - [MainThread:22192] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
+2022-03-30 17:04:57,275 - [MainThread:22192] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
