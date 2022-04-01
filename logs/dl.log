@@ -1,419 +1,128 @@
-2022-03-30 14:51:32,773 - [MainThread:23628] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 14:52:59,889 - [MainThread:21624] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 14:53:00,612 - [MainThread:21624] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 14:53:00,612 - [MainThread:21624] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 14:53:00,612 - [MainThread:21624] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 14:53:00,614 - [MainThread:21624] - config.py - __init__ [line:27] - INFO: connect es server in: ['10.154.108.45', '10.154.108.46', '10.154.108.47', '10.154.108.48']
-2022-03-30 14:53:00,615 - [MainThread:21624] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 14:53:00,616 - [MainThread:21624] - config.py - __init__ [line:27] - INFO: connect es server in: ['10.154.108.45', '10.154.108.46', '10.154.108.47', '10.154.108.48']
-2022-03-30 14:53:00,616 - [MainThread:21624] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 14:56:31,279 - [MainThread:19828] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 14:56:31,925 - [MainThread:19828] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 14:56:31,925 - [MainThread:19828] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 14:56:31,925 - [MainThread:19828] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 14:56:31,925 - [MainThread:19828] - config.py - __init__ [line:28] - INFO: connect es server in: 127.0.0.1
-2022-03-30 14:56:31,926 - [MainThread:19828] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 14:56:31,926 - [MainThread:19828] - config.py - __init__ [line:28] - INFO: connect es server in: 127.0.0.1
-2022-03-30 14:56:31,926 - [MainThread:19828] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 14:56:51,446 - [MainThread:19828] - index.py - create_index [line:46] - INFO: creating robotkdb_all index ...
-2022-03-30 14:56:51,592 - [MainThread:19828] - index.py - create_index [line:82] - WARNING: ConnectionError(<urllib3.connection.HTTPConnection object at 0x0000021C690B7D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x0000021C690B7D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed)
-2022-03-30 14:56:51,592 - [MainThread:19828] - index.py - bulk_index [line:86] - INFO: Bulk index for question
-2022-03-30 14:57:52,662 - [MainThread:11088] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 14:57:53,323 - [MainThread:11088] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 14:57:53,323 - [MainThread:11088] - config.py - __init__ [line:28] - INFO: connect es server in: 127.0.0.1
-2022-03-30 14:57:53,324 - [MainThread:11088] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 14:57:53,324 - [MainThread:11088] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 14:58:12,949 - [MainThread:11088] - index.py - create_index [line:46] - INFO: creating robotkdb_all index ...
-2022-03-30 14:58:13,095 - [MainThread:11088] - index.py - create_index [line:82] - WARNING: ConnectionError(<urllib3.connection.HTTPConnection object at 0x00000204EF4EB1D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x00000204EF4EB1D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed)
-2022-03-30 14:58:13,096 - [MainThread:11088] - index.py - bulk_index [line:86] - INFO: Bulk index for question
-2022-03-30 14:59:39,186 - [MainThread:23820] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 14:59:58,868 - [MainThread:12380] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 15:00:23,604 - [MainThread:18648] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 15:01:06,886 - [MainThread:23876] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 15:01:07,557 - [MainThread:23876] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 15:01:07,557 - [MainThread:23876] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 15:01:07,557 - [MainThread:23876] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 15:01:07,557 - [MainThread:23876] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 15:01:07,557 - [MainThread:23876] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 15:01:07,557 - [MainThread:23876] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 15:01:07,558 - [MainThread:23876] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 15:01:27,300 - [MainThread:23876] - index.py - create_index [line:46] - INFO: creating robotkdb_all index ...
-2022-03-30 15:01:27,304 - [MainThread:23876] - index.py - create_index [line:82] - WARNING: ConnectionError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))) caused by: ProtocolError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',)))
-2022-03-30 15:01:27,304 - [MainThread:23876] - index.py - bulk_index [line:86] - INFO: Bulk index for question
-2022-03-30 15:03:21,534 - [MainThread:3116] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 15:03:22,165 - [MainThread:3116] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 15:03:22,165 - [MainThread:3116] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 15:03:22,165 - [MainThread:3116] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 15:03:22,165 - [MainThread:3116] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 15:03:22,165 - [MainThread:3116] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 15:03:22,165 - [MainThread:3116] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 15:03:22,166 - [MainThread:3116] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 15:03:41,644 - [MainThread:3116] - index.py - create_index [line:46] - INFO: creating robotkdb_all index ...
-2022-03-30 15:03:43,648 - [MainThread:3116] - index.py - create_index [line:82] - WARNING: ConnectionError(<urllib3.connection.HTTPConnection object at 0x0000024A46493DD8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x0000024A46493DD8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。)
-2022-03-30 15:03:43,648 - [MainThread:3116] - index.py - bulk_index [line:86] - INFO: Bulk index for question
-2022-03-30 15:05:42,575 - [MainThread:15184] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 15:05:43,248 - [MainThread:15184] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 15:05:43,248 - [MainThread:15184] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 15:05:43,248 - [MainThread:15184] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 15:05:43,249 - [MainThread:15184] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 15:05:43,249 - [MainThread:15184] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 15:05:43,249 - [MainThread:15184] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 15:05:43,249 - [MainThread:15184] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 15:06:03,072 - [MainThread:15184] - index.py - create_index [line:46] - INFO: creating robotkdb_all index ...
-2022-03-30 15:06:03,128 - [MainThread:15184] - index.py - create_index [line:82] - WARNING: ConnectionError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))) caused by: ProtocolError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',)))
-2022-03-30 15:06:03,129 - [MainThread:15184] - index.py - bulk_index [line:86] - INFO: Bulk index for question
-2022-03-30 16:44:29,396 - [MainThread:8580] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 16:44:30,028 - [MainThread:8580] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 16:44:30,028 - [MainThread:8580] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 16:44:30,028 - [MainThread:8580] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 16:44:30,028 - [MainThread:8580] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 16:44:30,029 - [MainThread:8580] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 16:44:30,029 - [MainThread:8580] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 16:44:30,029 - [MainThread:8580] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 16:44:48,724 - [MainThread:8580] - index.py - create_index [line:46] - INFO: creating robotkdb_all index ...
-2022-03-30 16:44:48,727 - [MainThread:8580] - index.py - create_index [line:82] - WARNING: ConnectionError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))) caused by: ProtocolError(('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',)))
-2022-03-30 16:44:48,727 - [MainThread:8580] - index.py - bulk_index [line:86] - INFO: Bulk index for question
-2022-03-30 16:59:57,233 - [MainThread:22832] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 16:59:57,933 - [MainThread:22832] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 16:59:57,933 - [MainThread:22832] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 16:59:57,933 - [MainThread:22832] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 16:59:57,933 - [MainThread:22832] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 16:59:57,933 - [MainThread:22832] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 16:59:57,933 - [MainThread:22832] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 16:59:57,934 - [MainThread:22832] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 17:00:17,729 - [MainThread:22832] - index.py - create_index [line:46] - INFO: creating robotkdb_all index ...
-2022-03-30 17:00:17,759 - [MainThread:22832] - index.py - create_index [line:82] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [query_ansj] has not been configured in mappings')
-2022-03-30 17:00:17,759 - [MainThread:22832] - index.py - bulk_index [line:86] - INFO: Bulk index for question
-2022-03-30 17:00:31,654 - [MainThread:22832] - index.py - bulk_index [line:104] - INFO: Bulk index: 268665
-2022-03-30 17:04:56,606 - [MainThread:22192] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 17:04:57,252 - [MainThread:22192] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 17:04:57,252 - [MainThread:22192] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 17:04:57,252 - [MainThread:22192] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 17:04:57,254 - [MainThread:22192] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 17:04:57,275 - [MainThread:22192] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 17:04:57,275 - [MainThread:22192] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 17:04:57,275 - [MainThread:22192] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 17:04:57,275 - [MainThread:22192] - config.py - __init__ [line:17] - INFO: Model_type:bert-service  Env_choose:test
-2022-03-30 17:04:57,275 - [MainThread:22192] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:00:50,737 - [MainThread:26528] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:00:51,362 - [MainThread:26528] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:00:51,362 - [MainThread:26528] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:00:51,363 - [MainThread:26528] - index.py - create_index [line:51] - INFO: creating products index ...
-2022-03-30 19:00:51,463 - [MainThread:26528] - index.py - create_index [line:83] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [query_ansj] has not been configured in mappings')
-2022-03-30 19:00:51,463 - [MainThread:26528] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:02:29,599 - [MainThread:19952] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:02:30,219 - [MainThread:19952] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:02:30,219 - [MainThread:19952] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:02:30,219 - [MainThread:19952] - index.py - create_index [line:51] - INFO: creating products index ...
-2022-03-30 19:02:30,236 - [MainThread:19952] - index.py - create_index [line:83] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:02:30,236 - [MainThread:19952] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:06:37,440 - [MainThread:25324] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:06:38,101 - [MainThread:25324] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:06:38,101 - [MainThread:25324] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:06:38,101 - [MainThread:25324] - index.py - create_index [line:51] - INFO: creating products index ...
-2022-03-30 19:06:38,197 - [MainThread:25324] - index.py - create_index [line:83] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:06:38,198 - [MainThread:25324] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:17:00,318 - [MainThread:23988] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:17:00,989 - [MainThread:23988] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:17:00,989 - [MainThread:23988] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:17:00,990 - [MainThread:23988] - index.py - create_index [line:51] - INFO: creating products index ...
-2022-03-30 19:17:01,005 - [MainThread:23988] - index.py - create_index [line:87] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:17:01,005 - [MainThread:23988] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:17:51,537 - [MainThread:17404] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:17:52,225 - [MainThread:17404] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:17:52,225 - [MainThread:17404] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:17:52,225 - [MainThread:17404] - index.py - create_index [line:51] - INFO: creating products index ...
-2022-03-30 19:17:52,249 - [MainThread:17404] - index.py - create_index [line:87] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:17:52,249 - [MainThread:17404] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:25:07,858 - [MainThread:14296] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:25:08,497 - [MainThread:14296] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:25:08,497 - [MainThread:14296] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:25:08,497 - [MainThread:14296] - index.py - create_index [line:50] - INFO: creating products index ...
-2022-03-30 19:25:08,511 - [MainThread:14296] - index.py - create_index [line:86] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:25:08,511 - [MainThread:14296] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:25:29,739 - [MainThread:25992] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:25:30,371 - [MainThread:25992] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:25:30,371 - [MainThread:25992] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:25:30,371 - [MainThread:25992] - index.py - create_index [line:50] - INFO: creating products index ...
-2022-03-30 19:25:30,386 - [MainThread:25992] - index.py - create_index [line:86] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:25:30,386 - [MainThread:25992] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:26:55,967 - [MainThread:280] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:26:56,596 - [MainThread:280] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:26:56,596 - [MainThread:280] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:26:56,596 - [MainThread:280] - index.py - create_index [line:51] - INFO: creating products index ...
-2022-03-30 19:26:56,611 - [MainThread:280] - index.py - create_index [line:87] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:26:56,612 - [MainThread:280] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:28:25,965 - [MainThread:25904] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:28:26,696 - [MainThread:25904] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:28:26,696 - [MainThread:25904] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:28:26,696 - [MainThread:25904] - index.py - create_index [line:52] - INFO: creating products index ...
-2022-03-30 19:28:26,718 - [MainThread:25904] - index.py - create_index [line:88] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:28:26,718 - [MainThread:25904] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:30:08,812 - [MainThread:21720] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:30:23,778 - [MainThread:24364] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:30:24,479 - [MainThread:24364] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:30:24,480 - [MainThread:24364] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:30:24,480 - [MainThread:24364] - index.py - create_index [line:54] - INFO: creating products index ...
-2022-03-30 19:30:24,499 - [MainThread:24364] - index.py - create_index [line:90] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:30:24,499 - [MainThread:24364] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:32:06,393 - [MainThread:26352] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:32:07,044 - [MainThread:26352] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:32:07,045 - [MainThread:26352] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:32:07,045 - [MainThread:26352] - index.py - create_index [line:54] - INFO: creating products index ...
-2022-03-30 19:32:07,061 - [MainThread:26352] - index.py - create_index [line:90] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:32:07,061 - [MainThread:26352] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:33:05,763 - [MainThread:19600] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:33:06,413 - [MainThread:19600] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:33:06,413 - [MainThread:19600] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:33:06,413 - [MainThread:19600] - index.py - create_index [line:55] - INFO: creating products index ...
-2022-03-30 19:33:06,428 - [MainThread:19600] - index.py - create_index [line:91] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:33:06,429 - [MainThread:19600] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:34:28,230 - [MainThread:11008] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:34:28,871 - [MainThread:11008] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:34:28,871 - [MainThread:11008] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:34:28,871 - [MainThread:11008] - index.py - create_index [line:56] - INFO: creating products index ...
-2022-03-30 19:34:28,888 - [MainThread:11008] - index.py - create_index [line:92] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:34:28,888 - [MainThread:11008] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:35:03,134 - [MainThread:16728] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:35:03,811 - [MainThread:16728] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:35:03,812 - [MainThread:16728] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:35:03,812 - [MainThread:16728] - index.py - create_index [line:56] - INFO: creating products index ...
-2022-03-30 19:35:03,837 - [MainThread:16728] - index.py - create_index [line:92] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:35:03,838 - [MainThread:16728] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:36:03,519 - [MainThread:10040] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:36:04,175 - [MainThread:10040] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:36:04,176 - [MainThread:10040] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:36:04,176 - [MainThread:10040] - index.py - create_index [line:56] - INFO: creating products index ...
-2022-03-30 19:36:04,206 - [MainThread:10040] - index.py - create_index [line:92] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:36:04,206 - [MainThread:10040] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:41:20,828 - [MainThread:21888] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:41:21,518 - [MainThread:21888] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:41:21,518 - [MainThread:21888] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:41:21,518 - [MainThread:21888] - index.py - create_index [line:56] - INFO: creating products index ...
-2022-03-30 19:41:21,532 - [MainThread:21888] - index.py - create_index [line:92] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:41:21,533 - [MainThread:21888] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:43:49,170 - [MainThread:27612] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:43:49,806 - [MainThread:27612] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:43:49,806 - [MainThread:27612] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:43:49,806 - [MainThread:27612] - index.py - create_index [line:56] - INFO: creating products index ...
-2022-03-30 19:43:49,900 - [MainThread:27612] - index.py - create_index [line:92] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:43:49,900 - [MainThread:27612] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:45:21,141 - [MainThread:27612] - index.py - bulk_index [line:97] - INFO: Bulk index for question
-2022-03-30 19:46:36,213 - [MainThread:25176] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:46:36,882 - [MainThread:25176] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 19:46:36,882 - [MainThread:25176] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:46:36,884 - [MainThread:25176] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 19:46:36,906 - [MainThread:25176] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:46:36,906 - [MainThread:25176] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 19:46:36,907 - [MainThread:25176] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:49:06,112 - [MainThread:21948] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:49:06,785 - [MainThread:21948] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 19:49:06,785 - [MainThread:21948] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:49:06,787 - [MainThread:21948] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 19:49:06,801 - [MainThread:21948] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:49:06,802 - [MainThread:21948] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 19:49:06,802 - [MainThread:21948] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:50:22,978 - [MainThread:19008] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:50:23,615 - [MainThread:19008] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:50:23,616 - [MainThread:19008] - index.py - __init__ [line:24] - INFO: Indexing ...
-2022-03-30 19:50:23,616 - [MainThread:19008] - index.py - create_index [line:57] - INFO: creating products index ...
-2022-03-30 19:50:23,839 - [MainThread:19008] - index.py - create_index [line:93] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [index_ansj] has not been configured in mappings')
-2022-03-30 19:50:23,839 - [MainThread:19008] - index.py - data_convert [line:28] - INFO: convert sql data into single doc
-2022-03-30 19:52:20,515 - [MainThread:19008] - index.py - bulk_index [line:98] - INFO: Bulk index for question
-2022-03-30 19:56:01,611 - [MainThread:19008] - index.py - bulk_index [line:117] - INFO: Bulk index: 1001501
-2022-03-30 19:59:04,162 - [MainThread:26124] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 19:59:04,821 - [MainThread:26124] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 19:59:04,821 - [MainThread:26124] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:59:04,824 - [MainThread:26124] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 19:59:04,847 - [MainThread:26124] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 19:59:04,847 - [MainThread:26124] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 19:59:04,847 - [MainThread:26124] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:19:30,506 - [MainThread:1656] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 20:19:31,122 - [MainThread:1656] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:19:31,122 - [MainThread:1656] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:19:31,124 - [MainThread:1656] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 20:19:31,138 - [MainThread:1656] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:19:31,138 - [MainThread:1656] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:19:31,138 - [MainThread:1656] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:21:16,827 - [MainThread:9860] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 20:21:17,489 - [MainThread:9860] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:21:17,489 - [MainThread:9860] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:21:17,492 - [MainThread:9860] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 20:21:17,508 - [MainThread:9860] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:21:17,508 - [MainThread:9860] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:21:17,508 - [MainThread:9860] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:24:13,894 - [MainThread:24284] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 20:24:14,546 - [MainThread:24284] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:24:14,546 - [MainThread:24284] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:24:14,548 - [MainThread:24284] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 20:24:14,562 - [MainThread:24284] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:24:14,562 - [MainThread:24284] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:24:14,562 - [MainThread:24284] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:24:55,572 - [MainThread:27444] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 20:24:56,283 - [MainThread:27444] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:24:56,283 - [MainThread:27444] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:24:56,285 - [MainThread:27444] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 20:24:56,302 - [MainThread:27444] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:24:56,302 - [MainThread:27444] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:24:56,302 - [MainThread:27444] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:26:50,196 - [MainThread:27084] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 20:26:50,817 - [MainThread:27084] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:26:50,817 - [MainThread:27084] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:26:50,819 - [MainThread:27084] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 20:26:50,831 - [MainThread:27084] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:26:50,832 - [MainThread:27084] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:26:50,832 - [MainThread:27084] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:27:38,503 - [MainThread:17284] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 20:27:39,165 - [MainThread:17284] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:27:39,165 - [MainThread:17284] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:27:39,167 - [MainThread:17284] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 20:27:39,184 - [MainThread:17284] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:27:39,184 - [MainThread:17284] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:27:39,184 - [MainThread:17284] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:28:10,703 - [MainThread:24688] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 20:28:11,352 - [MainThread:24688] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:28:11,352 - [MainThread:24688] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:28:11,354 - [MainThread:24688] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 20:28:11,371 - [MainThread:24688] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:28:11,371 - [MainThread:24688] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:28:11,371 - [MainThread:24688] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:34:32,075 - [MainThread:22396] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 20:34:32,695 - [MainThread:22396] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:34:32,695 - [MainThread:22396] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:34:32,697 - [MainThread:22396] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 20:34:32,710 - [MainThread:22396] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:34:32,711 - [MainThread:22396] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:34:32,711 - [MainThread:22396] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:34:35,603 - [MainThread:22396] - search.py - searchAnswer [line:55] - WARNING: 'sub_question_id'
-2022-03-30 20:34:35,603 - [MainThread:22396] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:34:35,634 - [MainThread:22396] - search.py - searchAnswer [line:55] - WARNING: 'sub_question_id'
-2022-03-30 20:34:35,634 - [MainThread:22396] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:34:35,660 - [MainThread:22396] - search.py - searchAnswer [line:55] - WARNING: 'sub_question_id'
-2022-03-30 20:34:35,660 - [MainThread:22396] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:34:35,685 - [MainThread:22396] - search.py - searchAnswer [line:55] - WARNING: 'sub_question_id'
-2022-03-30 20:34:35,685 - [MainThread:22396] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:34:35,708 - [MainThread:22396] - search.py - searchAnswer [line:55] - WARNING: 'sub_question_id'
-2022-03-30 20:34:35,708 - [MainThread:22396] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:34:35,721 - [MainThread:22396] - search.py - searchAnswer [line:55] - WARNING: 'sub_question_id'
-2022-03-30 20:34:35,721 - [MainThread:22396] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:34:35,737 - [MainThread:22396] - search.py - searchAnswer [line:55] - WARNING: 'sub_question_id'
-2022-03-30 20:34:35,737 - [MainThread:22396] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:34:35,753 - [MainThread:22396] - search.py - searchAnswer [line:55] - WARNING: 'sub_question_id'
-2022-03-30 20:34:35,753 - [MainThread:22396] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:34:35,767 - [MainThread:22396] - search.py - searchAnswer [line:55] - WARNING: 'sub_question_id'
-2022-03-30 20:34:35,767 - [MainThread:22396] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:34:35,779 - [MainThread:22396] - search.py - searchAnswer [line:55] - WARNING: 'sub_question_id'
-2022-03-30 20:34:35,779 - [MainThread:22396] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:34:35,779 - [MainThread:22396] - search.py - searchAnswer [line:59] - INFO: ReadTimeOutError may not be covered!
-2022-03-30 20:35:21,294 - [MainThread:24224] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 20:35:21,945 - [MainThread:24224] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:35:21,945 - [MainThread:24224] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:35:21,947 - [MainThread:24224] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 20:35:21,960 - [MainThread:24224] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:35:21,960 - [MainThread:24224] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:35:21,960 - [MainThread:24224] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:35:43,889 - [MainThread:24224] - search.py - searchAnswer [line:55] - WARNING: 'doc_id'
-2022-03-30 20:35:43,890 - [MainThread:24224] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:35:43,900 - [MainThread:24224] - search.py - searchAnswer [line:55] - WARNING: 'doc_id'
-2022-03-30 20:35:43,900 - [MainThread:24224] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:35:43,912 - [MainThread:24224] - search.py - searchAnswer [line:55] - WARNING: 'doc_id'
-2022-03-30 20:35:43,912 - [MainThread:24224] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:35:43,922 - [MainThread:24224] - search.py - searchAnswer [line:55] - WARNING: 'doc_id'
-2022-03-30 20:35:43,922 - [MainThread:24224] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:35:43,930 - [MainThread:24224] - search.py - searchAnswer [line:55] - WARNING: 'doc_id'
-2022-03-30 20:35:43,931 - [MainThread:24224] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:35:43,940 - [MainThread:24224] - search.py - searchAnswer [line:55] - WARNING: 'doc_id'
-2022-03-30 20:35:43,940 - [MainThread:24224] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:35:43,949 - [MainThread:24224] - search.py - searchAnswer [line:55] - WARNING: 'doc_id'
-2022-03-30 20:35:43,949 - [MainThread:24224] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:35:43,958 - [MainThread:24224] - search.py - searchAnswer [line:55] - WARNING: 'doc_id'
-2022-03-30 20:35:43,958 - [MainThread:24224] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:35:43,966 - [MainThread:24224] - search.py - searchAnswer [line:55] - WARNING: 'doc_id'
-2022-03-30 20:35:43,967 - [MainThread:24224] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:35:43,976 - [MainThread:24224] - search.py - searchAnswer [line:55] - WARNING: 'doc_id'
-2022-03-30 20:35:43,976 - [MainThread:24224] - search.py - searchAnswer [line:56] - WARNING: Try again!
-2022-03-30 20:35:43,976 - [MainThread:24224] - search.py - searchAnswer [line:59] - INFO: ReadTimeOutError may not be covered!
-2022-03-30 20:36:11,233 - [MainThread:24272] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 20:36:11,875 - [MainThread:24272] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:36:11,875 - [MainThread:24272] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:36:11,877 - [MainThread:24272] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 20:36:11,895 - [MainThread:24272] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:36:11,895 - [MainThread:24272] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:36:11,895 - [MainThread:24272] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:37:10,293 - [MainThread:24272] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:37:10,294 - [MainThread:24272] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:37:10,303 - [MainThread:24272] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:37:10,303 - [MainThread:24272] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:37:10,316 - [MainThread:24272] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:37:10,316 - [MainThread:24272] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:37:10,326 - [MainThread:24272] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:37:10,326 - [MainThread:24272] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:37:10,335 - [MainThread:24272] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:37:10,335 - [MainThread:24272] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:37:10,344 - [MainThread:24272] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:37:10,344 - [MainThread:24272] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:37:10,354 - [MainThread:24272] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:37:10,354 - [MainThread:24272] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:37:10,363 - [MainThread:24272] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:37:10,363 - [MainThread:24272] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:37:10,371 - [MainThread:24272] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:37:10,371 - [MainThread:24272] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:37:10,380 - [MainThread:24272] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:37:10,380 - [MainThread:24272] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:37:10,380 - [MainThread:24272] - search.py - searchAnswer [line:60] - INFO: ReadTimeOutError may not be covered!
-2022-03-30 20:38:33,301 - [MainThread:14988] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 20:38:34,119 - [MainThread:14988] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:38:34,119 - [MainThread:14988] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:38:34,121 - [MainThread:14988] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 20:38:34,136 - [MainThread:14988] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:38:34,136 - [MainThread:14988] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:38:34,136 - [MainThread:14988] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:38:38,051 - [MainThread:14988] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:38:38,051 - [MainThread:14988] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:38:38,062 - [MainThread:14988] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:38:38,062 - [MainThread:14988] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:38:38,071 - [MainThread:14988] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:38:38,071 - [MainThread:14988] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:38:38,079 - [MainThread:14988] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:38:38,079 - [MainThread:14988] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:38:38,089 - [MainThread:14988] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:38:38,089 - [MainThread:14988] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:38:38,098 - [MainThread:14988] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:38:38,098 - [MainThread:14988] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:38:38,107 - [MainThread:14988] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:38:38,107 - [MainThread:14988] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:38:38,117 - [MainThread:14988] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:38:38,117 - [MainThread:14988] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:38:38,128 - [MainThread:14988] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:38:38,128 - [MainThread:14988] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:38:38,137 - [MainThread:14988] - search.py - searchAnswer [line:56] - WARNING: 'doc_id'
-2022-03-30 20:38:38,137 - [MainThread:14988] - search.py - searchAnswer [line:57] - WARNING: Try again!
-2022-03-30 20:38:38,137 - [MainThread:14988] - search.py - searchAnswer [line:60] - INFO: ReadTimeOutError may not be covered!
-2022-03-30 20:38:58,955 - [MainThread:13172] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 20:38:59,637 - [MainThread:13172] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:38:59,637 - [MainThread:13172] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:38:59,639 - [MainThread:13172] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 20:38:59,653 - [MainThread:13172] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:38:59,656 - [MainThread:13172] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:38:59,656 - [MainThread:13172] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:39:27,896 - [MainThread:24244] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 20:39:28,542 - [MainThread:24244] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:39:28,542 - [MainThread:24244] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:39:28,544 - [MainThread:24244] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 20:39:28,557 - [MainThread:24244] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:39:28,558 - [MainThread:24244] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:39:28,558 - [MainThread:24244] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:39:39,351 - [MainThread:15184] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 20:39:39,979 - [MainThread:15184] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:39:39,979 - [MainThread:15184] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:39:39,981 - [MainThread:15184] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 20:39:39,994 - [MainThread:15184] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:39:39,994 - [MainThread:15184] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:39:39,994 - [MainThread:15184] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:40:12,239 - [MainThread:23976] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
-2022-03-30 20:40:12,876 - [MainThread:23976] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:40:12,876 - [MainThread:23976] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:40:12,878 - [MainThread:23976] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
-2022-03-30 20:40:12,892 - [MainThread:23976] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
-2022-03-30 20:40:12,892 - [MainThread:23976] - search.py - __init__ [line:18] - INFO: Searching ...
-2022-03-30 20:40:12,892 - [MainThread:23976] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 10:06:53,100 - [MainThread:27264] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 10:06:53,102 - [MainThread:27264] - index_hnsw.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-31 10:06:53,102 - [MainThread:27264] - index_hnsw.py - create_index [line:57] - INFO: creating products_vector_retrieval index ...
+2022-03-31 10:07:03,109 - [MainThread:27264] - index_hnsw.py - create_index [line:95] - WARNING: ConnectionTimeout caused by - ReadTimeoutError(HTTPConnectionPool(host='127.0.0.1', port=9200): Read timed out. (read timeout=10))
+2022-03-31 10:07:03,109 - [MainThread:27264] - index_hnsw.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-31 10:08:04,476 - [MainThread:28324] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 10:08:05,281 - [MainThread:28324] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 10:08:05,282 - [MainThread:28324] - index_hnsw.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-31 10:08:05,282 - [MainThread:28324] - index_hnsw.py - create_index [line:57] - INFO: creating products_vector_retrieval index ...
+2022-03-31 10:08:05,608 - [MainThread:28324] - index_hnsw.py - create_index [line:95] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [query_ansj] has not been configured in mappings')
+2022-03-31 10:08:05,609 - [MainThread:28324] - index_hnsw.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-31 10:10:21,964 - [MainThread:28324] - index_hnsw.py - bulk_index [line:100] - INFO: Bulk index for question
+2022-03-31 10:14:41,224 - [MainThread:28324] - index_hnsw.py - bulk_index [line:119] - INFO: Bulk index: 1001501
+2022-03-31 10:43:47,090 - [MainThread:20616] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 10:43:47,788 - [MainThread:20616] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 10:43:47,788 - [MainThread:20616] - index_hnsw.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-31 10:43:47,789 - [MainThread:20616] - index_hnsw.py - create_index [line:57] - INFO: creating products_vector_retrieval index ...
+2022-03-31 10:43:48,138 - [MainThread:20616] - index_hnsw.py - create_index [line:95] - WARNING: RequestError(400, 'mapper_parsing_exception', 'Failed to parse mapping: analyzer [query_ansj] has not been configured in mappings')
+2022-03-31 10:43:48,138 - [MainThread:20616] - index_hnsw.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-31 10:46:26,753 - [MainThread:28788] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 10:46:27,535 - [MainThread:28788] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 10:46:27,535 - [MainThread:28788] - index_hnsw.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-31 10:46:27,535 - [MainThread:28788] - index_hnsw.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-31 10:48:36,226 - [MainThread:28788] - index_hnsw.py - bulk_index [line:100] - INFO: Bulk index for question
+2022-03-31 10:54:44,982 - [MainThread:28788] - index_hnsw.py - bulk_index [line:119] - INFO: Bulk index: 1001501
+2022-03-31 10:59:58,553 - [MainThread:15152] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 10:59:59,265 - [MainThread:15152] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 10:59:59,265 - [MainThread:15152] - index_hnsw.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-31 10:59:59,265 - [MainThread:15152] - index_hnsw.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-31 11:02:01,838 - [MainThread:15152] - index_hnsw.py - bulk_index [line:92] - INFO: Bulk index for question
+2022-03-31 11:07:06,772 - [MainThread:15152] - index_hnsw.py - bulk_index [line:111] - INFO: Bulk index: 1001501
+2022-03-31 15:48:36,406 - [MainThread:31732] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 15:48:37,200 - [MainThread:31732] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 15:48:37,200 - [MainThread:31732] - index_hnsw.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-31 15:48:37,200 - [MainThread:31732] - index_hnsw.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-31 15:50:23,447 - [MainThread:31732] - index_hnsw.py - bulk_index [line:91] - INFO: Bulk index for question
+2022-03-31 16:00:17,713 - [MainThread:22476] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 16:00:18,509 - [MainThread:22476] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 16:00:18,510 - [MainThread:22476] - index_hnsw.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-31 16:00:18,510 - [MainThread:22476] - index_hnsw.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-31 16:01:45,706 - [MainThread:22476] - index_hnsw.py - bulk_index [line:91] - INFO: Bulk index for question
+2022-03-31 16:04:12,383 - [MainThread:29168] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 16:04:13,094 - [MainThread:29168] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 16:04:13,094 - [MainThread:29168] - index_hnsw.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-31 16:04:13,094 - [MainThread:29168] - index_hnsw.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-31 16:05:21,974 - [MainThread:29168] - index_hnsw.py - bulk_index [line:91] - INFO: Bulk index for question
+2022-03-31 16:09:21,386 - [MainThread:9476] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 16:09:22,201 - [MainThread:9476] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 16:09:22,201 - [MainThread:9476] - index_hnsw.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-31 16:09:22,201 - [MainThread:9476] - index_hnsw.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-31 16:10:33,887 - [MainThread:9476] - index_hnsw.py - bulk_index [line:91] - INFO: Bulk index for question
+2022-03-31 16:38:38,835 - [MainThread:12328] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 16:38:39,573 - [MainThread:12328] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 16:38:39,574 - [MainThread:12328] - index_hnsw.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-31 16:38:39,574 - [MainThread:12328] - index_hnsw.py - create_index [line:57] - INFO: creating knn_test index ...
+2022-03-31 16:38:39,593 - [MainThread:12328] - index_hnsw.py - create_index [line:87] - WARNING: RequestError(400, 'mapper_parsing_exception', 'No handler for type [key_word] declared on field [document]')
+2022-03-31 16:38:39,594 - [MainThread:12328] - index_hnsw.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-31 16:40:02,851 - [MainThread:12328] - index_hnsw.py - bulk_index [line:91] - INFO: Bulk index for question
+2022-03-31 16:51:31,255 - [MainThread:5688] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 16:51:32,146 - [MainThread:5688] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 16:51:32,146 - [MainThread:5688] - index_hnsw.py - __init__ [line:24] - INFO: Indexing ...
+2022-03-31 16:51:32,146 - [MainThread:5688] - index_hnsw.py - data_convert [line:28] - INFO: convert sql data into single doc
+2022-03-31 16:52:48,651 - [MainThread:5688] - index_hnsw.py - bulk_index [line:91] - INFO: Bulk index for question
+2022-03-31 17:27:55,707 - [MainThread:19512] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 17:27:56,372 - [MainThread:19512] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-31 17:27:56,372 - [MainThread:19512] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:27:56,376 - [MainThread:19512] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
+2022-03-31 17:27:56,397 - [MainThread:19512] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:27:56,397 - [MainThread:19512] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-31 17:27:56,397 - [MainThread:19512] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:29:29,576 - [MainThread:8904] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 17:29:30,261 - [MainThread:8904] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-31 17:29:30,261 - [MainThread:8904] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:29:30,264 - [MainThread:8904] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
+2022-03-31 17:29:30,276 - [MainThread:8904] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:29:30,277 - [MainThread:8904] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-31 17:29:30,277 - [MainThread:8904] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:30:31,505 - [MainThread:7648] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 17:30:32,197 - [MainThread:7648] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-31 17:30:32,198 - [MainThread:7648] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:30:32,200 - [MainThread:7648] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
+2022-03-31 17:30:32,215 - [MainThread:7648] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:30:32,215 - [MainThread:7648] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-31 17:30:32,215 - [MainThread:7648] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:41:32,133 - [MainThread:10992] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 17:41:49,997 - [MainThread:29320] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 17:41:50,735 - [MainThread:29320] - search_vector.py - __init__ [line:19] - INFO: Searching ...
+2022-03-31 17:41:50,735 - [MainThread:29320] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:41:50,735 - [MainThread:29320] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:42:19,725 - [MainThread:2512] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 17:42:20,460 - [MainThread:2512] - search_vector.py - __init__ [line:19] - INFO: Searching ...
+2022-03-31 17:42:20,460 - [MainThread:2512] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:42:20,461 - [MainThread:2512] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:42:39,920 - [MainThread:31500] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 17:42:40,659 - [MainThread:31500] - search_vector.py - __init__ [line:19] - INFO: Searching ...
+2022-03-31 17:42:40,659 - [MainThread:31500] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:42:40,660 - [MainThread:31500] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:42:57,141 - [MainThread:14104] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 17:42:57,993 - [MainThread:14104] - search_vector.py - __init__ [line:19] - INFO: Searching ...
+2022-03-31 17:42:57,993 - [MainThread:14104] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:42:57,994 - [MainThread:14104] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:43:15,878 - [MainThread:28032] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 17:43:16,652 - [MainThread:28032] - search_vector.py - __init__ [line:19] - INFO: Searching ...
+2022-03-31 17:43:16,652 - [MainThread:28032] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:43:16,652 - [MainThread:28032] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:44:54,476 - [MainThread:27300] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 17:44:55,255 - [MainThread:27300] - search_vector.py - __init__ [line:19] - INFO: Searching ...
+2022-03-31 17:44:55,255 - [MainThread:27300] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:44:55,255 - [MainThread:27300] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:45:17,109 - [MainThread:16772] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 17:45:17,844 - [MainThread:16772] - search_vector.py - __init__ [line:19] - INFO: Searching ...
+2022-03-31 17:45:17,844 - [MainThread:16772] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:45:17,845 - [MainThread:16772] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:45:32,782 - [MainThread:12516] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 17:45:33,485 - [MainThread:12516] - search_vector.py - __init__ [line:19] - INFO: Searching ...
+2022-03-31 17:45:33,485 - [MainThread:12516] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:45:33,485 - [MainThread:12516] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:45:44,781 - [MainThread:29828] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 17:45:45,486 - [MainThread:29828] - search_vector.py - __init__ [line:19] - INFO: Searching ...
+2022-03-31 17:45:45,486 - [MainThread:29828] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:45:45,486 - [MainThread:29828] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:46:33,456 - [MainThread:24524] - data_helper.py - <module> [line:53] - INFO: 载入用户词典和停用词
+2022-03-31 17:46:34,114 - [MainThread:24524] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-31 17:46:34,114 - [MainThread:24524] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:46:34,116 - [MainThread:24524] - data_helper.py - __init__ [line:248] - INFO: connect gpu server in: 10.130.228.46
+2022-03-31 17:46:34,130 - [MainThread:24524] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']
+2022-03-31 17:46:34,131 - [MainThread:24524] - search.py - __init__ [line:18] - INFO: Searching ...
+2022-03-31 17:46:34,131 - [MainThread:24524] - config.py - __init__ [line:28] - INFO: connect es server in: ['127.0.0.1']

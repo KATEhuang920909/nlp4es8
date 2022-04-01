@@ -34,11 +34,11 @@ class Config(object):
             sniff_on_connection_fail=False,
             sniffer_timeout=0
         )
-        self.index_name = "products"
+        # self.index_name = "my-approx-knn-index"
         # self.index_name = "robotkdb_all"
+        self.index_name = "knn_test2"
         # self.doc_type = "all_question"
         self.top_n = 10
 
-
 # if __name__ == '__main__':
-    # Config = Config(env='int')
+# Config = Config(env='int')

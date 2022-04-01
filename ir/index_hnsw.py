@@ -1,25 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
-__title__ = ''
-__author__ = 'yangzl31'
-__mtime__ = '2018/12/13'
-# code is far away from bugs with the god animal protecting
-    I love animals. They taste delicious.
-              ┏┓      ┏┓
-            ┏┛┻━━━┛┻┓
-            ┃      ☃      ┃
-            ┃  ┳┛  ┗┳  ┃
-            ┃      ┻      ┃
-            ┗━┓      ┏━┛
-                ┃      ┗━━━┓
-                ┃  神兽保佑    ┣┓
-                ┃　永无BUG！   ┏┛
-                ┗┓┓┏━┳┓┏┛
-                  ┃┫┫  ┃┫┫
-                  ┗┻┛  ┗┻┛
-"""
 
 import sys
 
@@ -32,9 +13,9 @@ warnings.filterwarnings("ignore")
 
 from ir.config import Config
 from elasticsearch import helpers
-#import pandas as pd
+import pandas as pd
 from utils.args import FLAGS
-from utils.data_helper import Data
+# from utils.data_helper import Data
 from utils.logger_config import base_logger
 
 
@@ -47,16 +28,27 @@ class Index(object):
         base_logger.info("convert sql data into single doc")
 
         questions = {}
+        embeddings = {}
+        # 获取原始数据
+        corpus = pd.read_csv('../data/corpus.tsv', sep='\t', header=None)
+        corpus = corpus[:100000]
+        print(corpus.head())
+        # embedding 数据
+        with open("../data/doc_embedding") as f:
+            for line in f:
+                sp_line = line.strip('\n').split("\t")
+                index, embedding = sp_line
+                embedding = embedding.split(',')
+                embedding = [float(k) for k in embedding]
+                embeddings[int(index)] = embedding
 
-        # 获取数据
-        dt = Data(FLAGS.env)
-        df = dt.read_all_Question()
-        # df = pd.read_csv('faq_sub_question.csv', sep=',', error_bad_lines=False,encoding='utf-8')
-        for key, value in df.iterrows():
-            if not (value[0] or value[1] or value[2].strip()):
+        # print(int(index))
+        print(embeddings[1])
+        for key, value in corpus.iterrows():
+            if not (value[1] or value[2].strip()):
                 continue
-            questions[key] = {'sub_question_id': int(value[0]), 'primary_question_id': int(value[1]),
-                              'question': value[2]}
+            # print(value[0])
+            questions[value[0]] = {'document': value[1], 'embedding': embeddings[value[0]]}
 
         return questions
 
@@ -72,19 +64,13 @@ class Index(object):
             "mappings": {
 
                 "properties": {
-                    "sub_question_id": {
-                        "type": "long",
-                        "index": "false"
-                    },
-                    "primary_question_id": {
-                        "type": "long",
-                        "index": "false"
-                    },
-                    "question": {
-                        "type": "text",
-                        "analyzer": "index_ansj",
-                        "search_analyzer": "query_ansj",
-                        "index": "true"
+                    "embedding": {
+                        "type": "dense_vector",
+                        "dims": 128,
+                        "index": True,
+                        "similarity ": "cosine"},
+                    "document": {
+                        "type": "key_word"
                     }
                 }
             }
@@ -106,6 +92,8 @@ class Index(object):
         count = 1
         actions = []
         for question_index, question in questions.items():
+            if count==1:
+                print(question)
             action = {
                 "_index": config.index_name,
                 "_id": question_index,
@@ -113,7 +101,8 @@ class Index(object):
             }
             actions.append(action)
             count += 1
-
+            if count % 10000 == 0:
+                print(count)
             if len(actions) % bulk_size == 0:
                 helpers.bulk(config.es, actions)
                 actions = []
@@ -126,7 +115,8 @@ class Index(object):
 if __name__ == '__main__':
     config = Config(FLAGS.env)
     index = Index()
+    # index.create_index(config)
     questions = index.data_convert()
-    print(questions[0])
-    index.create_index(config)
+    print(questions[3])
+
     index.bulk_index(questions, bulk_size=10000, config=config)
