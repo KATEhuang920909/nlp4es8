@@ -16,22 +16,22 @@ from elasticsearch import helpers
 import pandas as pd
 from utils.args import FLAGS
 # from utils.data_helper import Data
-from utils.logger_config import base_logger
+from utils.logger_config import logger
 
 
 class Index(object):
     def __init__(self):
-        base_logger.info("Indexing ...")
+        logger.info("Indexing ...")
 
     @staticmethod
     def data_convert():
-        base_logger.info("convert sql data into single doc")
+        logger.info("convert sql data into single doc")
 
         questions = {}
         embeddings = {}
         # 获取原始数据
         corpus = pd.read_csv('../data/corpus.tsv', sep='\t', header=None)
-        corpus = corpus[:100000]
+        # corpus = corpus[:100000]
         print(corpus.head())
         # embedding 数据
         with open("../data/doc_embedding") as f:
@@ -51,16 +51,12 @@ class Index(object):
             questions[value[0]] = {'document': value[1], 'embedding': embeddings[value[0]]}
 
         return questions
-
     @staticmethod
     def create_index(config):
-        base_logger.info("creating %s index ..." % config.index_name)
+        logger.info("creating %s index ..." % config.index_name)
         request_body = {
             # 设置索引主分片数，每个主分片的副本数，默认分别是5和1
-            "settings": {
-                "number_of_shards": 5,
-                "number_of_replicas": 1
-            },
+
             "mappings": {
 
                 "properties": {
@@ -70,7 +66,7 @@ class Index(object):
                         "index": True,
                         "similarity ": "cosine"},
                     "document": {
-                        "type": "key_word"
+                        "type": "text"
                     }
                 }
             }
@@ -81,14 +77,14 @@ class Index(object):
             config.es.indices.delete(index=config.index_name, ignore=[400, 404])
             res = config.es.indices.create(index=config.index_name, body=request_body)
 
-            base_logger.info(res)
-            base_logger.info("Indices are created successfully")
+            logger.info(res)
+            logger.info("Indices are created successfully")
         except Exception as e:
-            base_logger.warning(e)
+            logger.warning(e)
 
     @staticmethod
     def bulk_index(questions, bulk_size, config):
-        base_logger.info("Bulk index for question")
+        logger.info("Bulk index for question")
         count = 1
         actions = []
         for question_index, question in questions.items():
@@ -109,7 +105,7 @@ class Index(object):
 
         if len(actions) > 0:
             helpers.bulk(config.es, actions)
-            base_logger.info("Bulk index: %s" % str(count))
+            logger.info("Bulk index: %s" % str(count))
 
 
 if __name__ == '__main__':
